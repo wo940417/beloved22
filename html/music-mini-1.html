@@ -1,0 +1,19 @@
+<section class="music-section">
+<span class="controls icon-play3"></span>
+<?php if(!is_single()): ?>
+<div class="music-load-loading">
+<div class="music-load">
+	<div class="circle-music"></div>
+</div>
+</div>
+<div class="music-hint"></div>
+<?php endif; ?>
+</section> 
+<?php if(is_single()): ?>
+	<div class="music-load-loading">
+	<div class="music-load">
+	<div class="circle-music"></div>
+	</div>
+	</div>
+	<div class="music-hint"></div>
+<?php endif; ?>
